@@ -1,0 +1,25 @@
+#clients .clients-list {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#clients .clients-list .client {
+    width: 15rem;
+    transition: all 0.2s ease;
+}
+
+#clients .clients-list .client article {
+    /* border: 1px solid #dde5ed; */
+    padding: 1rem;
+    margin: 2rem;
+}
+
+#clients .clients-list .client article:hover {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#clients .clients-list .client article img {
+    width: 100%;
+}
+

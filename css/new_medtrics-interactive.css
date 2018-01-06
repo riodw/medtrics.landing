@@ -1,0 +1,56 @@
+#interactive {
+    /* background: linear-gradient(#314157, #3e516d); */
+}
+
+#interactive .title {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    margin: 0 4rem;
+}
+
+#interactive .browser {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+#interactive #select {
+    margin-top: 20px;
+}
+
+#interactive #select .nav {
+    display: table;
+    margin: 0 auto;
+
+}
+
+#interactive #select .nav .nav-item {
+    list-style: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 180px;
+}
+
+#interactive #select .nav .nav-item a {
+    font-size: 1.3rem;
+    color: #333;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#interactive #select .nav .nav-item:hover a {
+    font-size: 1.5rem;
+}
+
+#interactive #select .nav .active:hover a {
+    font-size: 1.8rem;
+}
+
+#interactive #select .nav .active a {
+    font-size: 1.8rem;
+}

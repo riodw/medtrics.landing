@@ -1,0 +1,172 @@
+#footer {
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #333;
+}
+
+#footer ul {
+    justify-content: flex-start;
+}
+
+
+/* -------------------- */
+
+
+/* SOCIAL */
+
+#social ul {
+    line-height: 2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#social ul li {
+    margin: 0 1.5rem;
+    padding: 1.5rem 0;
+}
+#social ul li:first-of-type {
+    margin-left: 0;
+}
+
+#social ul li a {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+}
+
+#social ul li a img {
+    width: 100%;
+}
+
+
+/* -------------------- */
+
+
+/* INFO */
+
+#info {
+    background-color: #444;
+}
+
+#info .info-row {
+    justify-content: flex-start;
+    display: flex;
+    width: 100%;
+}
+
+#info .info-row .list-div {
+    text-align: left;
+    flex: 1;
+    padding: 1.5rem 0;
+    padding-right: 2rem;
+}
+
+#info .info-row .list-div:last-of-type {
+    padding-right: 0;
+}
+
+#info .info-row .list-div .info-list {
+    padding: 0;
+    display: block;
+}
+
+#info .info-row .list-div .info-list li {
+    margin: 1rem 0;
+}
+
+#info .info-row .list-div .info-list li a {
+    width: 100%;
+}
+
+#info .info-row #product_links .info-list li a {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#info .info-row .list-div .info-list li a {
+    margin: 0 auto;
+}
+
+#info .info-row .list-div .info-list li:first-of-type {
+    margin: 0;
+}
+
+#info .info-row .list-div .info-list li header {
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+#info .info-row .info-list li:first-of-type {
+    color: #fff;
+}
+
+#info .info-row .info-list li,
+#info .info-row .info-list li a {
+    color: #eee;
+    font-weight: 200;
+}
+
+#info .info-row .info-list li img {
+    width: 2.1rem;
+    margin-right: 1rem;
+}
+
+#info .info-row #product_links a {
+    font-weight: 600;
+}
+
+#footer #info #address a {
+    font-size: .8rem;
+    color: #ff5623;
+}
+
+#footer #info #address a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------------------- */
+
+
+/* LAST */
+
+#last {
+    font-weight: 200;
+}
+
+#last .last-list {
+    font-size: .9rem;
+    padding: 2rem 0 1rem 0;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+#last .last-list .item {
+    padding-top: 1rem;
+    margin-right: 4rem;
+}
+
+#last .last-list .item:last-of-type {
+    padding-top: 0;
+    margin-right: 0;
+}
+
+#last .last-list .item:nth-last-child(2) {
+    margin-right: auto;
+}
+
+#last .last-list .item a {
+    color: #888;
+}
+
+#last .last-list .item a:hover {
+    text-decoration: underline;
+}
+
+#last .last-list .item img {
+    width: 100%;
+}

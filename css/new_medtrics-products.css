@@ -1,0 +1,113 @@
+#products {
+    position: relative;
+    background-color: #fafafa;
+}
+
+#products {
+
+}
+
+#products #platforms .platforms-list {
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+#products #platforms .platforms-list .platform {
+    text-align: center;
+    box-sizing: border-box;
+    /* border: 6px solid #FFF; */
+    width: 50%;
+    padding: 1rem;
+}
+
+#products #platforms .platforms-list .platform:nth-child(odd) {
+    border-right: 1px solid #FFF;
+}
+
+#products #platforms .platforms-list .platform:nth-child(even) {
+    border-left: 1px solid #FFF;
+}
+
+#products #platforms .platforms-list .platform:nth-child(-n+2) {
+    border-bottom: 1px solid #FFF;
+}
+
+#products #platforms .platforms-list .platform:nth-last-child(-n+2) {
+    border-top: 1px solid #FFF;
+}
+
+#products #platforms .platforms-list .platform article {
+    position: relative;
+    /* height: 22rem; */
+}
+
+#products #platforms .platforms-list .platform article > header {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1em;
+}
+
+#products #platforms .platforms-list .platform article > div {
+    cursor: pointer;
+    background-color: #fafafa;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 4rem;
+}
+
+#products #platforms .platforms-list .platform article > div img {
+    transition: all 1s ease;
+    max-width: 100%;
+}
+
+#products #platforms .platforms-list .platform article:hover > div img {
+    transform: scale(1.05);
+}
+
+#products #platforms .platforms-list .platform article footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#products #platforms .platforms-list .platform article footer a {
+    transition: all .5s ease;
+    opacity: 0;
+    color: #0070c9;
+}
+
+#products #platforms .platforms-list .platform:hover article > footer a {
+    opacity: 1;
+}
+
+#products #platforms .platforms-list .platform article > footer a:hover span {
+    text-decoration: underline;
+}
+
+#products #key {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: -20px;
+    margin-left: -50px;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#products #key div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/favicon.png");
+}

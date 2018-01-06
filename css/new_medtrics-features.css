@@ -1,0 +1,29 @@
+#features .container {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+
+#features .container .feature-list {
+    display: flex;
+    align-content: center;
+}
+
+#features .container .feature-list .half {
+    flex: 1;
+}
+
+#features .container .feature-list .half:first-of-type {
+    text-align: right;
+}
+
+#features .container .feature-list .half:last-of-type {
+    text-align: left;
+}
+
+#features .container .feature-list .divider {
+    display: block;
+    width: 2px;
+    background-color: #333;
+    margin: 1em 1rem;
+}
